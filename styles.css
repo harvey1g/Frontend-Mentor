@@ -1,0 +1,36 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    display: grid;
+    place-content: center;
+    margin:0;
+    background: var(--Light-gray);
+    height: 100vh;
+}
+
+main{
+    background: var(--White);
+    width: 200px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+img{
+    border-radius: .5rem;
+}
+
+.title{
+    font-weight:700;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
